@@ -7,8 +7,11 @@ The gulp plugin of the lightweight HTML parser [html-to-object](https://npmjs.co
 ## Usage
 ```javascript
 // source file
-const modal = h2o('./path/to/file.html');
+const modal = h2o('./src/file.html');
+console.log(modal);
+```
 
+```javascript
 // gulpfile.js
 const gulp = require('gulp');
 const h2o = require('gulp-html-to-object');
