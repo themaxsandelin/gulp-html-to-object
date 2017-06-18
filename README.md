@@ -2,7 +2,7 @@
 The gulp plugin of the lightweight HTML parser [html-to-object](https://npmjs.com/html-to-object).
 
 ## Install
-`$ npm install --save gulp-html-to-object`
+`$ npm install --save-dev gulp-html-to-object`
 
 ## Usage
 ```javascript
