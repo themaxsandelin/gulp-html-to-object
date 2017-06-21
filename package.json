@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-to-object",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "The gulp plugin for the HTML parser html-to-object.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
     "email": "hello@maxsandelin.com",
     "url": "https://maxsandelin.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "html-to-object": "^1.2.1"
+  }
 }
