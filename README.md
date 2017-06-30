@@ -18,7 +18,7 @@ const h2o = require('gulp-html-to-object');
 
 gulp.task('javascript', () => {
   return gulp.src('./src/*.js')
-    .pipe(h2o())
+    .pipe(h2o([options]))
     .pipe(gulp.dest('./dist'));
 });
 ```
